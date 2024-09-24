@@ -1,0 +1,10 @@
+﻿services:
+  
+  Monitor:
+    build:
+      context: .
+      dockerfile: MonitorSnapshot/Dockerfile
+  Snapshot:
+    build:
+      context: .
+      dockerfile: MonitorSnapshot/Dockerfile

@@ -1,0 +1,9 @@
+@WebApplication1_HostAddress = https://localhost:7149
+
+### Monitor
+GET {{WebApplication1_HostAddress}}/monitor/text/
+Accept: application/json
+
+### Snapshot
+GET {{WebApplication1_HostAddress}}/snapshot/text/
+Accept: application/json
